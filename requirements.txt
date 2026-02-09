@@ -1,0 +1,12 @@
+vllm==0.9.2
+transformers==4.53
+datasets
+accelerate
+peft
+trl
+trl[vllm]
+deepspeed==0.16.9
+bitsandbytes
+wandb
+litellm
+flash-attn==2.7.3
