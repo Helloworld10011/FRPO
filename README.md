@@ -40,7 +40,7 @@ Math training (Qwen2.5-Math-7B on MATH levels 3–5):
 ```
 bash training/bash/math_training.sh
 ```
-The FRPO trainer (`training/frpo_trainer.py`) is a subclass of TRL's `GRPOTrainer`. You must set `loss_type="frpo"` and pass lamb (the $\lambda$ parameter from the paper) with or without "baseline" and "jackknife" to use it.
+The FRPO trainer (`training/frpo_trainer.py`) is a subclass of TRL's `GRPOTrainer`. You must set `loss_type="frpo"` and pass lamb (the $\lambda$ parameter from the paper) with or without "baseline" and "jackknife" to use it. The bash files include the training of both GRPO and FRPO with multiple values of $\lambda$.
 
 ### 2. Downstream Fine-tuning
 After training, we fine-tune the resulting models to evaluate robustness. Scripts are in `finetuning/bash/`:
