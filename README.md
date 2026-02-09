@@ -16,6 +16,6 @@ formulation. By modifying GRPO, we develop an algorithm with no extra computatio
 show it substantially reduces safety degradation across multiple base models and downstream fine-tuning
 regimes (SFT and RL) while preserving downstream task performance. We further study a math-focused RL
 setting, demonstrating that FRPO preserves accuracy under subsequent fine-tuning.
-![Screenshot of the Application](images/into.pdf)
+![Screenshot of the Application](images/intro.pdf)
 
 
