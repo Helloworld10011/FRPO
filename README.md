@@ -1,4 +1,6 @@
 # **Robust Policy Optimization to Prevent Catastrophic Forgetting**
+[![arXiv](https://img.shields.io/badge/arXiv-2602.08813-b31b1b.svg)](https://www.arxiv.org/abs/2602.08813)
+*FRPO is a robust RLHF algorithm to prevent catastrophic forgetting.*
 
 ## Abstract
 Large language models are commonly trained through multi-stage post-training: first via RLHF, then
