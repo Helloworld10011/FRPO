@@ -63,7 +63,7 @@ pip install lm-eval evalplus
 Bash scripts are in `eval/`. 
 
 -----
-Safety evaluations (HarmBench refusal rate, StrongREJECT scores) are computed using the utilities in `finetuning/harmbench_utils.py` and `finetuning/sr_utils.py`. Additionally, `finetuning/kl_utils.py` measure the rewards (Safety and Heplfulness) as well as the KL with the reference model during fine-tuning.
+Safety evaluations (HarmBench refusal rate, StrongREJECT scores) are computed using the utilities in `finetuning/harmbench_utils.py` and `finetuning/sr_utils.py`. Additionally, `finetuning/kl_utils.py` measures the rewards (Safety and Heplfulness) as well as the KL to the reference model during fine-tuning.
 
 
 
